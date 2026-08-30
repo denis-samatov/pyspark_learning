@@ -1,3 +1,6 @@
+> **This repository has been archived and consolidated into [`learning-notes`](https://github.com/denis-samatov/learning-notes/tree/main/pyspark).**
+> This copy is kept for history; see the link above for the current version.
+
 # PySpark Learning
 
 A collection of focused, single-topic Jupyter notebooks covering PySpark DataFrame
