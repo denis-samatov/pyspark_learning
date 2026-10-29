@@ -1,4 +1,4 @@
-> **This repository has been archived and consolidated into [`learning-notes`](https://github.com/denis-samatov/learning-notes/tree/main/pyspark).**
+> **The consolidated teaching material is maintained in [`learning-notes`](https://github.com/denis-samatov/learning-notes/tree/main/pyspark).**
 > This copy is kept for history; see the link above for the current version.
 
 # PySpark Learning
@@ -41,3 +41,7 @@ All 19 notebooks in `notebooks/`, grouped by theme:
 
 Each notebook is self-contained — start with `pyspark_create_dataframe.ipynb` if
 you're new to PySpark, then explore the rest in any order.
+
+## Validation and scale boundaries
+
+See [VALIDATION.md](VALIDATION.md) for the tested Python3.13/Spark4.2.1/Java21 profile and opt-in local runtime commands. Three original recipes plus null/empty/schema/UTC cases passed locally; all19 notebooks passed syntax checks, while the other16 were not runtime-qualified. `collect()`/dynamic key collection and broadcast examples use tiny data; size the driver/executor memory and preserve distributed transformations before adapting them to large inputs. Historical notebook outputs were preserved; actual validation results and their platform limits are recorded separately.
